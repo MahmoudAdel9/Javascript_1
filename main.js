@@ -163,7 +163,7 @@ function searchStudent(value) {
   let row = "";
   if (searchMood === "Name") {
     for (let i = 0; i < allStudents.length; i++) {
-      if (allStudents[i].name.includes(value.toLowerCase())) {
+      if (allStudents[i].name.startsWith(value.toLowerCase())) {
         row += ` 
           <tr>
           <td>${i + 1}</td>
@@ -178,7 +178,7 @@ function searchStudent(value) {
     }
   } else {
     for (let i = 0; i < allStudents.length; i++) {
-      if (allStudents[i].grade === value.toLowerCase()) {
+      if (allStudents[i].grade.startsWith(value.toLowerCase())) {
         row += ` 
         <tr>
         <td>${i + 1}</td>
