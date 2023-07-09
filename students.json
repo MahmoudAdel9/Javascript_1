@@ -1,0 +1,62 @@
+[
+  {
+    "name": "John Doe",
+    "phone": "5551234",
+    "email": "johndoe@example.com",
+    "score": "85"
+  },
+  {
+    "name": "Jane Smith",
+    "phone": "5555678",
+    "email": "janesmith@example.com",
+    "score": "92"
+  },
+  {
+    "name": "Mark Johnson",
+    "phone": "5559012",
+    "email": "markjohnson@example.com",
+    "score": "78"
+  },
+  {
+    "name": "Sarah Lee",
+    "phone": "5553456",
+    "email": "sarahlee@example.com",
+    "score": "96"
+  },
+  {
+    "name": "David Kim",
+    "phone": "5557890",
+    "email": "davidkim@example.com",
+    "score": "87"
+  },
+  {
+    "name": "Emily Chen",
+    "phone": "5552345",
+    "email": "emilychen@example.com",
+    "score": "80"
+  },
+  {
+    "name": "Alex Wong",
+    "phone": "5556789",
+    "email": "alexwong@example.com",
+    "score": "91"
+  },
+  {
+    "name": "Lisa Park",
+    "phone": "5550123",
+    "email": "lisapark@example.com",
+    "score": "75"
+  },
+  {
+    "name": "Mike Brown",
+    "phone": "5554567",
+    "email": "mikebrown@example.com",
+    "score": "83"
+  },
+  {
+    "name": "Karen Lee",
+    "phone": "5558901",
+    "email": "karenlee@example.com",
+    "score": "70"
+  }
+]

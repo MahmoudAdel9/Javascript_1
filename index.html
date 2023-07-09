@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i&amp;display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&amp;display=swap"
+    rel="stylesheet" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Students Management System</h1>
+    </header>
+
+    <section class="inputs-sec">
+      <input type="text" placeholder="Student Name" id="name">
+      <input type="number" placeholder="Student Phone Number" id="phone">
+      <input type="email" placeholder="Student Email" id="email">
+      <div class="student-score">
+        <input type="number" placeholder="Student score" id="score">
+        <span id="grade">Student Grade</span>
+      </div>
+
+      <button id="add">Add Student</button>
+      <button id="import" onclick="importStudents()">Import Students From JSON File</button>
+    </section>
+
+
+    <section class="outputs-sec">
+
+      <div class="searchbtn">
+        <button id="byName" onclick="getSearchMood(this.id)">Search By Name</button>
+        <button id="byGr" onclick="getSearchMood(this.id)">Serach By Grade</button>
+      </div>
+      <input onkeyup="searchStudent(this.value)" type="text" name="" id="search" placeholder="Search"
+        style="display: none;">
+
+      <button id="sort">Sort By Score</button>
+      <button onclick="clearAll()" id="clear"></button>
+      <table>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Score</th>
+            <th>Grade</th>
+            <th>Update</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
