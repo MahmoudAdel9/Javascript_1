@@ -86,6 +86,7 @@ function clearInputs() {
   email.value = "";
   score.value = "";
   grade.innerHTML = "Student Grade";
+  grade.style.backgroundColor = "blue";
 }
 
 //read
@@ -121,6 +122,7 @@ function updateStudent(index) {
   phone.value = allStudents[index].phone;
   email.value = allStudents[index].email;
   score.value = allStudents[index].score;
+  grade.innerHTML = allStudents[index].grade;
   temp = index;
   mood = "update";
   add.innerHTML = "update Student";
